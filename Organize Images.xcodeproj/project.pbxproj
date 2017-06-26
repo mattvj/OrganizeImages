@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C940B0F714BE21C40040148A /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C940B0F614BE21C40040148A /* Automator.framework */; };
+		C940B0F914BE21C40040148A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C940B0F814BE21C40040148A /* Cocoa.framework */; };
+		C940B10314BE21C40040148A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C940B10114BE21C40040148A /* InfoPlist.strings */; };
+		C940B10614BE21C40040148A /* Organize_Images.m in Sources */ = {isa = PBXBuildFile; fileRef = C940B10514BE21C40040148A /* Organize_Images.m */; };
+		C940B10914BE21C40040148A /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = C940B10714BE21C40040148A /* main.xib */; };
+		C94268DC14C16B49001AE7CD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94268DB14C16B49001AE7CD /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C93A65C9181EEFB2004B3C41 /* Application.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Application.xib; sourceTree = "<group>"; };
+		C940B0F314BE21C40040148A /* Organize Images.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Organize Images.action"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C940B0F614BE21C40040148A /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		C940B0F814BE21C40040148A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C940B0FB14BE21C40040148A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C940B0FC14BE21C40040148A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C940B0FD14BE21C40040148A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C940B10014BE21C40040148A /* Organize Images-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Organize Images-Info.plist"; sourceTree = "<group>"; };
+		C940B10214BE21C40040148A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C940B10414BE21C40040148A /* Organize_Images.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Organize_Images.h; sourceTree = "<group>"; };
+		C940B10514BE21C40040148A /* Organize_Images.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Organize_Images.m; sourceTree = "<group>"; };
+		C940B10814BE21C40040148A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/main.xib; sourceTree = "<group>"; };
+		C940B10A14BE21C40040148A /* Organize Images-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Organize Images-Prefix.pch"; sourceTree = "<group>"; };
+		C94268DB14C16B49001AE7CD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C940B0EF14BE21C40040148A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C940B0F714BE21C40040148A /* Automator.framework in Frameworks */,
+				C940B0F914BE21C40040148A /* Cocoa.framework in Frameworks */,
+				C94268DC14C16B49001AE7CD /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C940B0E714BE21C40040148A = {
+			isa = PBXGroup;
+			children = (
+				C940B0FE14BE21C40040148A /* Organize Images */,
+				C940B0F514BE21C40040148A /* Frameworks */,
+				C940B0F414BE21C40040148A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C940B0F414BE21C40040148A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C940B0F314BE21C40040148A /* Organize Images.action */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C940B0F514BE21C40040148A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C940B0F614BE21C40040148A /* Automator.framework */,
+				C940B0F814BE21C40040148A /* Cocoa.framework */,
+				C940B0FA14BE21C40040148A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C940B0FA14BE21C40040148A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C94268DB14C16B49001AE7CD /* CoreLocation.framework */,
+				C940B0FB14BE21C40040148A /* AppKit.framework */,
+				C940B0FC14BE21C40040148A /* CoreData.framework */,
+				C940B0FD14BE21C40040148A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C940B0FE14BE21C40040148A /* Organize Images */ = {
+			isa = PBXGroup;
+			children = (
+				C940B10414BE21C40040148A /* Organize_Images.h */,
+				C940B10514BE21C40040148A /* Organize_Images.m */,
+				C940B10714BE21C40040148A /* main.xib */,
+				C940B0FF14BE21C40040148A /* Supporting Files */,
+				C93A65C9181EEFB2004B3C41 /* Application.xib */,
+			);
+			path = "Organize Images";
+			sourceTree = "<group>";
+		};
+		C940B0FF14BE21C40040148A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C940B10014BE21C40040148A /* Organize Images-Info.plist */,
+				C940B10114BE21C40040148A /* InfoPlist.strings */,
+				C940B10A14BE21C40040148A /* Organize Images-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C940B0F214BE21C40040148A /* Organize Images */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C940B10D14BE21C40040148A /* Build configuration list for PBXNativeTarget "Organize Images" */;
+			buildPhases = (
+				C940B0EE14BE21C40040148A /* Sources */,
+				C940B0EF14BE21C40040148A /* Frameworks */,
+				C940B0F014BE21C40040148A /* Resources */,
+				C940B0F114BE21C40040148A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Organize Images";
+			productName = "Organize Images";
+			productReference = C940B0F314BE21C40040148A /* Organize Images.action */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C940B0E914BE21C40040148A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Primality, Inc.";
+			};
+			buildConfigurationList = C940B0EC14BE21C40040148A /* Build configuration list for PBXProject "Organize Images" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C940B0E714BE21C40040148A;
+			productRefGroup = C940B0F414BE21C40040148A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C940B0F214BE21C40040148A /* Organize Images */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C940B0F014BE21C40040148A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C940B10314BE21C40040148A /* InfoPlist.strings in Resources */,
+				C940B10914BE21C40040148A /* main.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C940B0F114BE21C40040148A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${DEVELOPER_BIN_DIR}/amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C940B0EE14BE21C40040148A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C940B10614BE21C40040148A /* Organize_Images.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C940B10114BE21C40040148A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C940B10214BE21C40040148A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C940B10714BE21C40040148A /* main.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C940B10814BE21C40040148A /* en */,
+			);
+			name = main.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C940B10B14BE21C40040148A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C940B10C14BE21C40040148A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C940B10E14BE21C40040148A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_LINK_OBJC_RUNTIME = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Organize Images/Organize Images-Prefix.pch";
+				INFOPLIST_FILE = "Organize Images/Organize Images-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_BUNDLE_IDENTIFIER = "Primality--Inc..${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Debug;
+		};
+		C940B10F14BE21C40040148A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_LINK_OBJC_RUNTIME = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Organize Images/Organize Images-Prefix.pch";
+				INFOPLIST_FILE = "Organize Images/Organize Images-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_BUNDLE_IDENTIFIER = "Primality--Inc..${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C940B0EC14BE21C40040148A /* Build configuration list for PBXProject "Organize Images" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C940B10B14BE21C40040148A /* Debug */,
+				C940B10C14BE21C40040148A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C940B10D14BE21C40040148A /* Build configuration list for PBXNativeTarget "Organize Images" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C940B10E14BE21C40040148A /* Debug */,
+				C940B10F14BE21C40040148A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C940B0E914BE21C40040148A /* Project object */;
+}
